@@ -1,0 +1,11 @@
+{
+	"title": "testing",
+	"description": "testing the ability to create a file",
+	"installation": "just have node.js and the npm package inquirer",
+	"usage": "answer the questions in the node command line when prompted",
+	"guidelines": "an attatched readme",
+	"testing": "this",
+	"license": "y",
+	"github": "tedwar52",
+	"email": "tedwar52"
+}
