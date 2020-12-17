@@ -20,6 +20,11 @@ const questions = [{
     },
     {
         type: "input",
+        name: "usage",
+        message: "How does one use this app?"
+    }
+    {
+        type: "input",
         name: "guidelines",
         message: "What are the contribution guidelines?"
     },
