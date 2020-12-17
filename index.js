@@ -44,7 +44,7 @@ function promptUser() {
         type: "list",
         name: "license",
         message: "Which license is the application covered under?",
-        choices: ["x", "y", "z"],
+        choices: ["MIT", "NTP", "CC0", "ISC"],
       },
       {
         type: "input",
