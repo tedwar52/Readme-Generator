@@ -8,36 +8,36 @@ function generateMarkdown(data) {
   ${data.description}
 
   **_Table of Contents_**
-  - <a name="Installation">Installation</a>
-  - <a name="Usage">Usage</a>
-  - <a name="Guidelines>Contributors</a>
-  - <a name="Testing">Testing</a>
-  - <a name="License">License</a>
-  - <a name="More">See More</a>
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Contributors](#Guidelines)
+  - [Testing](#Testing)
+  - [License](#License)
+  - [More](#More)
 
-  **_Installation_**[link text](#Installation)
+  <a name="Installation">**_Installation_**</a>
 
   ${data.installation}
 
-  **_Usage_**[link text](#Usage)
+  <a name="Usage">**_Usage_**</a>
 
   ${data.usage}
 
-  **_Contributors_**[link text](#Guidelines)
+  <a name="Guidelines">**_Contributors_**</a>
 
   ${data.guidelines}
 
-  **_Testing_**[link text](#Testing)
+  <a name="Testing">**_Testing_**</a>
 
   ${data.testing}
 
-  **_License_**[link text](#License)
+  <a name="License">**_License_**</a>
 
   ${data.license}
 
-  **_See more about this_**[link text](#More)
+  <a name="More">**_See more about this_**</a>
 
-  [Github link]("https://github.com/${data.github}")  
+  [Github link](${data.github})  
   [Email Address](${data.email})
 
 `;

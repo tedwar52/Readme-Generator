@@ -33,7 +33,7 @@ function promptUser() {
       {
         type: "input",
         name: "guidelines",
-        message: "What are the contribution guidelines?",
+        message: "What are the guidelines for contributors?",
       },
       {
         type: "input",
@@ -49,7 +49,7 @@ function promptUser() {
       {
         type: "input",
         name: "github",
-        message: "What is your GitHub username?",
+        message: "What is your GitHub profile page?",
       },
       {
         type: "input",
